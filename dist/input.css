@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+button,
+input,
+img {
+  cursor: pointer;
+}
+.container1 {
+  width: 95%;
+  margin: 0 auto;
+}
+@media (min-width: 1600px) {
+  .container1 {
+    width: 1400px;
+    margin: 0 atuo;
+  }
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background-color: #ffffff46;
+  overflow-y: scroll;
+  transition: all 0.5s;
+  width: 100%;
+  height: 100vh;
+}
+#check:checked ~ .header {
+  right: 0;
+}
+.leftside {
+  box-shadow: 0 1px 10px 0 rgba(208, 208, 208, 0.25);
+  background: #fff;
+}
+.rightside {
+  background-image: url(../src/assets/img/showcaseimg.png);
+  background-position: top;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .sidebar2 {
+    background-image: url(../src/assets/img/showcaseimg2.png);
+    background-position: top;
+    background-size: cover;
+    background: linear-gradient(
+        271deg,
+        rgba(93, 104, 207, 0.8) 0%,
+        rgba(93, 104, 207, 0.8) 34.91%,
+        rgba(93, 104, 207, 0.8) 70.62%,
+        rgba(93, 104, 207, 0.8) 83.15%,
+        rgba(178, 183, 232, 0.8) 91.93%,
+        rgba(255, 255, 255, 0.8) 100%
+      ),
+      linear-gradient(
+        270deg,
+        rgba(93, 104, 207, 0.5) 0%,
+        rgba(93, 104, 207, 0.5) 34.91%,
+        rgba(93, 104, 207, 0.5) 70.62%,
+        rgba(93, 104, 207, 0.5) 83.15%,
+        rgba(178, 183, 232, 0.5) 91.93%,
+        rgba(255, 255, 255, 0.5) 100%
+      );
+    transform: rotate(-180deg);
+  }
+  .line {
+    transform: rotate(-180deg);
+  }
+}
+@media (max-width: 375px) {
+  .sidebar2 {
+    background: #5d68cf;
+  }
+}
+.ptag {
+  background-image: url(../src/assets/svg/otag.svg);
+  background-position: top;
+  background-size: cover;
+}
+.smth:hover img {
+  filter: brightness(0) invert(1);
+}
+.middle {
+  background-image: url(../src/assets/img/middlecard.png);
+  background-position: top;
+  background-size: cover;
+  width: 423px;
+  height: 264px;
+  border-radius: 10px;
+}
+.middle div {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.middle:hover div {
+  opacity: 1;
+}
+.middle1 {
+  background-image: url(../src/assets/img/middlecard1.png);
+  background-position: top;
+  background-size: cover;
+  width: 423px;
+  height: 264px;
+  border-radius: 10px;
+}
+.middle2 {
+  background-image: url(../src/assets/img/middlecard2.png);
+  background-position: top;
+  background-size: cover;
+  width: 423px;
+  height: 264px;
+  border-radius: 10px;
+}
+.middle1 div {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.middle1:hover div {
+  opacity: 1;
+}
+.middle2 div {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.middle2:hover div {
+  opacity: 1;
+}
+.centerimg:hover img {
+  filter: brightness(0) invert(1);
+  background: transparent;
+}
+.centerimg {
+  transition: all 0.5s;
+}
+.middle3 div {
+  opacity: 0;
+}
+.middle4 div {
+  opacity: 0;
+}
+.middle5 div {
+  opacity: 0;
+}
+.middle3 {
+  background-image: url(../src/assets/img/middlecard3.png);
+  background-position: top;
+  background-size: cover;
+  width: 423px;
+  height: 264px;
+  border-radius: 10px;
+}
+.middle4 {
+  background-image: url(../src/assets/img/middlecard4.png);
+  background-position: top;
+  background-size: cover;
+  width: 423px;
+  height: 264px;
+  border-radius: 10px;
+}
+.middle5 {
+  background-image: url(../src/assets/img/middlecard5.png);
+  background-position: top;
+  background-size: cover;
+  width: 423px;
+  height: 264px;
+  border-radius: 10px;
+}
