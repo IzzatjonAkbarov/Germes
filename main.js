@@ -1,33 +1,44 @@
-// let str = "Hello WorlD";
-// let all = "";
-// for (i = 0; i < str.length; i++) {
-//   finalresult = str[i];
-//   if (finalresult == finalresult.toUpperCase()) {
-//     all += finalresult.toLowerCase();
-//   } else if (finalresult == finalresult.toLowerCase()) {
-//     all += finalresult.toUpperCase();
-//   } else {
-//     console.log("errror");
+// task1_________________________________1
+// let str = "JavaScriptIsAmazing";
+// let start = 4;
+// let end = 14;
+// let str2 = str.slice(start, end).toLowerCase();
+// console.log(str2);
+// task1_________________________________2
+// let str = "   fidfvwfdwfvwnd space here   ";
+// let str2 = str.trim();
+// let sum = "";
+// for (i = 0; i < str2.length; i++) {
+//   if (str2[i] == " ") {
+//     sum += i + " ";
 //   }
 // }
-// console.log(all);
+// console.log(sum);
 
-// ------------->
-
-// --------------------------------------------------->
-// let str = "apple banana apple banana".split(" ");
-// word = "apple";
-// count = 0;
+// task1_________________________________3
+// let str = "apple123banana456orange789";
+// let allowed = "abcdefghijklmnopqrstuvdxyz";
+// let result = "";
 // for (i = 0; i < str.length; i++) {
-//   if (str[i] == word) {
-//     count += 1;
+//   // console.log(str[i]);
+//   for (j = 0; j < allowed.length; j++) {
+//     // console.log(allowed[j]);
+//     if (str[i] == allowed[j]) {
+//       result += str[i];
+//     }
 //   }
 // }
-// console.log(count);
-let words = "Lorem ipsum dolor";
-let word = words.split(" ");
-let word2 = "";
-for (i = 0; i < word.length; i++) {
-  word2 += " " + word[i].split("").reverse().join("");
-}
-console.log(word2);
+// console.log(result);
+// task1_________________________________4 vaqtim yetmadi ustoz ishlab tashab qoyaman
+
+// let str = "apple orange apple banana orange ";
+// let str2 = str.trim().split(" ");
+// let res = "";
+// for (i = 0; i < str2.length; i++) {
+//   for (j = 0; j < str2.length; j++) {
+//     if (str2[i] == str2[j]) {
+//       res += str2[i];
+//     }
+//   }
+// }
+// console.log(res);

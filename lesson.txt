@@ -1,0 +1,107 @@
+console.log("salom");-->bu teg hudddi print ga oxshaydi console ga yozilgan text yoki buyruqlarni chiqaradi
+//
+comment olish 2xil--> // and /* farqi comment olissh hajmida   */
+//
+alert--> malumot chiqarish uchun kerak buladi 
+//
+confirm--> malumot tasdiqlash uchun kerak boladi 
+//
+prompt--> malumot olish uchun 
+//
+varibles-->ozgaruvchilar 3ta let const var 
+var foydalanish tavsiya etilmaydi chunki ikkta uzgaruvchi bersa buladi va
+let var oxxshasshligi uzgaruchini uzgartirish mumkin 
+constantda emas
+uzgaruvchi nomlash qoidalari 
+camel firstName
+snake first_name
+pascal NirstName
+kebabcase first-name 
+$
+_
+data types 
+primitive
+
+....
+number 123
+symbole uniqe email passwordda ishlatish mumkin masalan
+
+string hello world
+boolean true false
+big int 9007199254740991 engkattaa son dan keyin n qoyiladi yoki shunchaki n orqali
+undefined variable bor qiymat yoq
+ null variable bor qiymat bosh
+
+
+
+
+
+no primitive reference
+arrray [ true, false , "smth" ,1,2,3]toplam xoxlagan turdagi malumot lar kiritsa boladi 
+object { } 23uzgaruvchi yozib ketsak boladi
++ -* /
+logical operators{
+    or and not || && !
+}
+solishtiruvchi operatorlar{
+    == = ===  farqlari 
+    =tenglashtirish
+    ==taqqoslash
+    ===datatype boyicha taqqoslash+taqqoslash
+}
+math object{
+     console.log(Math.round) hisoblaydi taqriban
+     console.log(Math.ceil) 0.1 kop bolsa ham tepaga chiqaradi
+     console.log(Math.floor) eng pastini 
+     console.log(Math.trunc)
+     console.log(Math.sign)
+     console.log(Math.pow)
+     console.log(Math.sqrt)
+     console.log(Math.abs)
+     console.log(Math.min)
+     console.log(Math.max)
+
+}
+dars konspekt 
+operatorlar
+arifmetik...............................
+- plus 
++ minus
+/ bolish
+* kopaytirish
+** daraja 
+-- 1ta ayrish
+++ 1ta qoshish
+%qoldiq
+assignment...............................
+= tenglaydi 
++= qoshib tenglaydi
+-= ayrib tenglaydi
+*= kopaytirib tenglaydi
+/= bolib tenglaydi
+%= qolidigini hisoblab tenglaydi
+**= darajaga oshirib tenglaydi
+taqqoslash...............................
+= teglash
+== tegmi shart type conversion tur almashtirib taqqoslaydi
+=== tur almashtirmay taqqoslaydi
+!= not equal tegmi shart type conversion tur almashtirib taqqoslaydi
+!== strict not equal tegmi shart type conversion tur almashtirib taqqoslaydi
+<kichik
+>katta
+>=kichik yoki teng
+<= katta yoki teng
+llogikaviy...........................
+&& and 100% togri bolishi kerak else false 
+|| 100% xato bolishi kerak ele true 
+! not teskarisi
+math function ...............
+floor----> eng past 
+ceil----> baland
+round----> taqriban
+sign ----> har qanday qiymat krtilsa 1 -1 0 -0 nan chiqaradi
+trunc----> butun qismini olib beradi
+sqrt----> ildizdan chiqaradi
+pow----> darajga kotaradi
+min ---->minimum
+max---->maximum
